@@ -66,6 +66,7 @@ main {
 .nav-list {
     display: flex;
     gap: 40px;
+    position: relative;
 }
 
 .logo-header {
@@ -106,6 +107,7 @@ main {
 
 .studio-item .list-items {
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-item::after {
@@ -147,6 +149,10 @@ main {
 
 .address-list:hover, .address-list:focus {
     color: #404bbf 
+}
+
+.address-list-item {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*First Section*/

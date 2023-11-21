@@ -120,7 +120,7 @@ main {
     height: 4px;
     border-radius: 2px;
     background: #404BBF;
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -322,25 +322,26 @@ main {
 }
 
 .social-items {
-    background-color: #4D5AE5;
     border-radius: 50%;
     padding: 12px;
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .social-link-section {
     width: 100%;
     height: 100%;
     fill: #F4F4FD;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.social-items:hover,
-.social-items:focus {
+.social-link-section:hover,
+.social-link-section:focus {
     background-color: #404BBF;
 }
 

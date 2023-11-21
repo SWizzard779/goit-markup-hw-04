@@ -111,7 +111,7 @@ main {
     position: relative;
 }
 
-.studio-item::after {
+.list-items::after {
     width: 48px;
     height: 4px;
     border-radius: 2px;
@@ -459,14 +459,9 @@ main {
     margin-bottom: 16px;
 }
 
-.socials {
+.socials-footer {
     display: flex;
     gap: 16px;
-}
-
-.social-items-footer:hover,
-.social-items-footer:focus {
-    background-color: #31D0AA;
 }
 
 .social-link-footer:hover,
